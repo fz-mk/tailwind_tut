@@ -744,6 +744,10 @@ video {
   align-self: flex-end;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1221,10 +1225,6 @@ video {
 
   .sm\:gap-2 {
     gap: 0.5rem;
-  }
-
-  .sm\:scroll-smooth {
-    scroll-behavior: smooth;
   }
 
   .sm\:text-left {
